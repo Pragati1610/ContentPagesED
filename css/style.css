@@ -80,7 +80,7 @@ header a:hover {
   width: 80%;
   margin: auto;
   overflow: hidden;
-  color: #cccccc;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -130,8 +130,9 @@ header a:hover {
 }
 
 .a-tag:hover {
-  color: #3E9AD5;
+  color: #ffffff;
 }
+
 
 /* Showcase */
 /* #showcase{
@@ -142,7 +143,7 @@ header a:hover {
 } */
 
 #showcase {
-  background: url('../images/Ccode6.jpeg') no-repeat center;
+  background: url('../images/Ccode7.png') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   min-height: 500px;
@@ -301,9 +302,9 @@ ul#sections li {
   text-decoration: none;
 }
 
-ul li:hover a {
+/* ul li:hover a {
   padding-left: 40px;
-}
+} */
 
 .sidebar ul li a {
   margin-right: 16px;
