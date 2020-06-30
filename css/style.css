@@ -34,7 +34,7 @@ header {
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #fafafa 3px solid;
-  text-align: center;
+  /* text-align: center; */
 }
 
 header a {
@@ -70,10 +70,11 @@ header .current a {
 }
 
 header a:hover {
-  color: #11b8aa;
+  color: #3E9AD5;
   font-weight: bold;
   text-align: center;
 }
+
 
 /* Global */
 .container {
@@ -130,7 +131,7 @@ header a:hover {
 }
 
 .a-tag:hover {
-  color: #ffffff;
+  color: #3e9ad5;
 }
 
 
@@ -243,6 +244,29 @@ ul#sections li {
     float: none;
     text-align: center;
     width: 100%;
+  }
+
+  .image{
+    width: 400px;
+    /* height: 500px; */
+  }
+  
+  .image1{
+    width: 400px;
+    /* height: 500px; */
+  }
+
+  @media(max-width: 768px){
+    .image{
+      width: 300px;
+    }
+    .image1{
+      width: 300px;
+    }
+    .logo {
+      width: 20%;
+      margin-top: 50px;
+    }
   }
 
   header {
@@ -550,12 +574,4 @@ hr {
 }
 
 
-.image{
-  width: 700px;
-  /* height: 500px; */
-}
 
-.image1{
-  width: 700px;
-  /* height: 500px; */
-}
